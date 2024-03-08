@@ -83,13 +83,13 @@ html {
 }
 
 :root {
-  scroll-behavior: unset;
+  /* scroll-behavior: unset; */
 }
 
 body {
   font-family: "Manrope", sans-serif;
   color: #474747;
-  background-color: #f7f7f7;
+  background-color: #fefefe;
   font-size: 15px;
   font-size: 1rem;
   /* overflow-x: hidden; */
@@ -140,13 +140,13 @@ img {
 .sr-only {
   display: none !important;
   opacity: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 /* 1.2 Global Elements */
 .page-wrapper {
-  position: relative;
-  overflow: hidden;
+  /* position: relative; */
+  /* overflow: hidden; */
 }
 
 .wow {
@@ -636,7 +636,7 @@ img {
 
 .wpo-breadcumb-area {
   background: url(../images/page-title.jpg) no-repeat center top/cover;
-  min-height: 350px;
+  min-height: 320px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -878,9 +878,10 @@ img {
 @media screen and (min-width: 992px) {
   .blog-sidebar {
     padding-right: 45px;
-    background: #f1f1f1;
+    background: #ffffff;
     padding: 25px 40px;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 10px 5px;
   }
 }
 
@@ -2843,7 +2844,7 @@ img {
 @media (max-width: 1700px) {
   .wpo-site-header {
     padding: 0 30px;
-    background: #f5f4f4;
+    background: #fbfbfb;
   }
 }
 
@@ -4695,7 +4696,7 @@ img {
 }
 
 .service-slider .item .content {
-  background: #ebebeb;
+  background: #f5f5f5;
   padding: 40px 30px;
 }
 
@@ -7427,7 +7428,7 @@ img {
   border: 1px solid #b8b8b8;
   margin-bottom: 15px;
   padding: 15px;
-  background: #f3f3f3;
+  background: #f9f9f9;
 }
 
 .wpo-contact-area .quote-form .form-control::placeholder {
@@ -10234,12 +10235,12 @@ font-size: 16px;
   max-width: 440px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
   .wpo-contact-pg-section .wpo-contact-title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -10247,7 +10248,7 @@ font-size: 16px;
   font-size: 35px;
   font-size: 2.3333333333rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 575px) {
@@ -10260,11 +10261,12 @@ font-size: 16px;
 .wpo-contact-pg-section form input,
 .wpo-contact-pg-section form select,
 .wpo-contact-pg-section form textarea {
-  background: transparent;
+  background: #fbfbfb;
   width: 100%;
+  border-radius: 6px;
   height: 50px;
   border: 1px solid transparent;
-  border-radius: 0px;
+  /* border-radius: 0px; */
   box-shadow: none !important;
   padding-left: 25px;
   margin: 10px 0px;
@@ -10446,9 +10448,9 @@ font-size: 16px;
 }
 
 .wpo-contact-pg-section .wpo-contact-form-area {
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
+  /* padding: 30px; */
+  /* background: #fff; */
+  /* box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1); */
   padding-bottom: 0;
   margin-bottom: 45px;
   position: relative;
