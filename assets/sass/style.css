@@ -11310,3 +11310,9 @@ height: 550px;
 padding-left: 0px;
 }
 }
+.why-choose-one__img-boxs {
+  padding: 40px;
+}
+.why-choose-one__imgs {
+  border: 5px solid white;
+}
