@@ -636,13 +636,14 @@ img {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
+  background: url(../images/page-title.jpg) no-repeat center top / cover;
   min-height: 320px;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
+  margin-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -665,7 +666,7 @@ img {
 
 .wpo-breadcumb-area .wpo-breadcumb-wrap {
   text-align: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .wpo-breadcumb-area .wpo-breadcumb-wrap h2 {
@@ -2466,7 +2467,7 @@ img {
     padding: 35px 20px;
     display: block;
     color: #000B47;
-    font-weight: 600;
+    font-weight: 700;
     position: relative;
   }
 }
